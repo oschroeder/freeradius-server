@@ -233,6 +233,10 @@
 #define PW_PACKET_TRANSMIT_COUNTER     	1134
 #define PW_CACHED_SESSION_POLICY     	1135
 
+#define PW_LDAP_BASEDN                  3018
+#define PW_LDAP_MULTI_REPLY             3019                                                                                                                                       
+#define PW_LDAP_MULTI_CHECK             3020
+
 /*
  *	Integer Translations
  */
