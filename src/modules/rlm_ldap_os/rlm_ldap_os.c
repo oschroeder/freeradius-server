@@ -2955,7 +2955,7 @@ static VALUE_PAIR *ldap_pairget(LDAP *ld, LDAPMessage *entry,
 }
 
 /* globally exported name */
-module_t rlm_ldap = {
+module_t rlm_ldap_os = {
 	RLM_MODULE_INIT,
 	"LDAP",
 	RLM_TYPE_THREAD_SAFE,	/* type: reserved 	 */
